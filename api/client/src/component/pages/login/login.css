@@ -1,0 +1,62 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255 , 255 , 255, 0.5) ,rgba(255 , 255 , 255, 0.5) ) ,  url('https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?t=st=1646154631~exp=1646155231~hmac=92362022b69d59917ab703f0c12a2a101c9d7bc61fac0797982bba7def081be9&w=740') ;
+    background-size: cover;
+
+
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+.loginBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* .loginBtn:hover{
+    box-shadow: 9px 9px 12px gray;
+    transition: all ease 0.5s;
+    background-color: rgba(18, 250, 18, 0.513);
+
+} */
+.loginBtn:disabled{
+    cursor:not-allowed;
+    background-color: rgb(236, 172, 172);
+}
+
+.loginRegisterBtn{
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

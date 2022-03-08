@@ -1,0 +1,13 @@
+.posts{
+    flex: 9;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 12px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(129, 159, 199, 0.171);
+    border-radius: 12px;
+    
+}

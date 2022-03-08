@@ -1,0 +1,93 @@
+.singlePage{
+    flex: 9;
+}
+.singlePostWrapper{
+    padding: 20px;
+    margin-top: 30px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.singlepostImg{
+    width: 100%;
+    /* height: 1200px; */
+    object-fit: cover;
+
+}
+
+.singlePageTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora' , serif;
+    font-size: 28px;
+}
+.singlePageTitleInput{
+    margin: 10px;
+    font-family: 'Lora' , serif;
+    font-size: 28px;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid rgb(80, 79, 79);
+
+
+}
+.singlePageTitleInput:focus{
+    outline: none;
+
+}
+.singlePostEdit{
+    float: right;
+    font-size: 20px;
+}
+.singlePageIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.singlePageIcon:first-child{
+    color: teal;
+
+}
+
+.singlePageIcon:last-child{
+    color: tomato;
+}
+
+.singlePageInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: 'Varela Round', sans-serif;
+}
+.singlePageDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePageDescInput{
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePageDescInput:focus{
+    outline: none;
+}
+.singlePageDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.singlePostBtn{
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    border: radius 5px ;
+    cursor: pointer;
+    align-self: 20px;
+    margin-top: 20px;
+}

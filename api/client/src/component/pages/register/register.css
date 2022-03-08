@@ -1,0 +1,48 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255 , 255 , 255, 0.5) ,rgba(255 , 255 , 255, 0.5) ) ,  url('https://previews.123rf.com/images/vectorplus/vectorplus1510/vectorplus151000076/45728806-registration-icon-on-a-green-background-vector-illustration-flat-design-.jpg') ;
+    background-size: cover;
+
+
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerRegisterBtn{
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
